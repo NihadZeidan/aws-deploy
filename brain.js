@@ -13,6 +13,3 @@ app.listen(PORT, () => console.log("listening"));
 app.get('/', (req, res) => {
     res.send('I have deployed this using AWS Elastic Beanstalk');
 });
-
-
-// -----------------------------------------------------------
